@@ -6,8 +6,8 @@ uber = paste(UberTweetsCleaned, collapse=" ")
 # put everything in a single vector
 all = c(meru, ola, tfs, uber)
 # remove stop-words
-library(tm)
-library(wordcloud)
+require(tm)
+require(wordcloud)
 all = removeWords(all,stopwords("english"))
 
 all = removeWords(all,c("ola", "code", "app", "download", "sign","earn", "olacabs", "referral"))

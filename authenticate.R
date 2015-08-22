@@ -3,7 +3,7 @@
 # library(devtools)
 # install_github("twitteR", username="geoffjentry")
 
-library(twitteR)
+require(twitteR)
 api_key <- ""
 api_secret <- ""
 access_token <- ""

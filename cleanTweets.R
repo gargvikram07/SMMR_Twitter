@@ -1,4 +1,4 @@
-load("TaxiTweets.RData")
+load("taxiTweets.RData")
 MeruTweets = sapply(Meru_tweets, function(x) x$getText())
 OlaTweets = sapply(Ola_tweets, function(x) x$getText())
 TaxiForSureTweets = sapply(TaxiForSure_tweets, function(x) x$getText())
